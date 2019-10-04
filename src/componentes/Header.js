@@ -5,8 +5,12 @@ import mao from '../imagens/mao.png';
 const Header = () => {
     return(
         <div className="Header">
-            <h1>Notify<span>.</span></h1>
-            <img className="mao" src={mao} alt="mão segurando celular"/> 
+            <div className="texto">
+                <h1>Notify<span>.</span></h1>
+            </div>
+            <div className="mao">
+                <img src={mao} alt="mão segurando celular"/>
+            </div> 
         </div>
     );
 }
